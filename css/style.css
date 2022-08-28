@@ -1,0 +1,29 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "burger.css";
+@import "media.css";
+
+body{
+    background-color: #f9f9f9;;
+}
+[class*="__container"]{
+    max-width:1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.comments__slider{
+    max-width: 1300px;
+    margin-left: calc(100% - 1300px + 30px);
+}
+
+
+.none{
+    display: none !important;
+}
+
+
+.background_color{
+    background-color: #F6F6F6;
+}
