@@ -485,6 +485,8 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
+        
+        margin-bottom: 30px;
     }
     .header__container-mobile .nav__toggle {
         position: fixed;
