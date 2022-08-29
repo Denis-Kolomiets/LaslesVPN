@@ -400,6 +400,11 @@
     justify-content: space-between;
 }
 
+.slider__item:hover {
+    border: 3px solid #F53838;
+    cursor: pointer;
+}
+
 
 .slider__item__text {
 
