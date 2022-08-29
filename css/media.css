@@ -421,18 +421,20 @@
     }
 
     .registration__button::before {
-
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
     height: 47.2px;
     background-color: rgba(253, 184, 194, 0.411);
     border-radius: 50px;
     }
     .registration li {
         font-size: 20px;
+    }
+
+    .registration__button:hover::before{
+        border: 2px solid rgba(253, 184, 194, 0.411);
+    }
+    .registration__button:hover{
+        transition: 0.1s ease;
+        border: 1px solid #efe7e7;
     }
 
     .nav__toggle {
